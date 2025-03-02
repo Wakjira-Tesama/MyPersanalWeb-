@@ -1,0 +1,46 @@
+body {
+  background-color: black;
+}
+header {
+  background-color: rgb(22, 14, 14);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0px;
+  left: 0%;
+  right: 0%;
+  height: 60px;
+  text-decoration: none;
+  transform: 3s;
+}
+.my {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 15px;
+  margin-left: 30px;
+}
+.my a {
+  background: linear-gradient(45deg, #bfff00, rgb(255, 105, 51));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+.about {
+  margin-right: 20px;
+}
+
+.about a {
+  margin-left: 15px;
+  font-size: 17px;
+}
+a.home,
+a:hover {
+  background: linear-gradient(45deg, #f06, #3cf);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
