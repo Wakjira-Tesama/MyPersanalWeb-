@@ -31,11 +31,11 @@ a {
   text-decoration: none;
 }
 .about {
-  margin-right: 20px;
+  margin-right: 100px;
 }
 
 .about a {
-  margin-left: 15px;
+  margin-right: 25px;
   font-size: 17px;
 }
 a.home,
