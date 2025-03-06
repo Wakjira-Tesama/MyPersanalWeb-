@@ -70,5 +70,34 @@ p {
   text-spacing-trim: 20px;
 }
 .icons {
-  background-color: rgb(255, 0, 55);
+  width: 100px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 200px;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+.icons a {
+  margin-left: 10px;
+}
+.fb {
+  width: 500px;
+}
+.icons img {
+  border-radius: 20px;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icons img:hover {
+  border-color: greens;
+}
+button {
+  background-color: orange;
+  border-radius: 10px;
+  color: white;
+  margin-right: 100px;
 }
