@@ -52,7 +52,7 @@ a:hover {
   margin-right: 20px;
   color: white;
   text-align: right;
-  background-color: red;
+
   width: 60%;
   padding-left: 50px;
   padding-right: 10px;
@@ -109,10 +109,17 @@ button:hover {
   background-color: #b9601c;
 }
 .imgn {
-  background: green;
   height: 400px;
   width: 500px;
-  margin-left: 50px;
-  border-radius: 500px;
-  border: 20px solid white;
+  margin-left: 30px;
+  border-radius: 50%;
+
+  background-color: #fff;
+}
+.imgn img {
+  max-width: 100%;
+
+  padding-right: 10px;
+  border-radius: 60%;
+  padding-top: 15px;
 }
