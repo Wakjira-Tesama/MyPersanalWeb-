@@ -48,3 +48,27 @@ a:hover {
   justify-content: center;
   align-items: center;
 }
+.homed {
+  margin-left: 40%;
+  margin-right: 10%;
+  color: white;
+  text-align: right;
+}
+.homed h1 {
+  font-size: 25px;
+  font-weight: 700;
+  text-align: center;
+}
+.homed h2 {
+  font-size: 20px;
+  margin-right: 40px;
+}
+p {
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 20px;
+  text-spacing-trim: 20px;
+}
+.icons {
+  background-color: rgb(255, 0, 55);
+}
