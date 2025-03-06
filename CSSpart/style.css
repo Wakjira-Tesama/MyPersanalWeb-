@@ -1,8 +1,5 @@
-body {
-  background-color: black;
-}
 header {
-  background-color: rgb(22, 14, 14);
+  background-color: transparent;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -43,4 +40,11 @@ a:hover {
   background: linear-gradient(45deg, #f06, #3cf);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
+}
+.sec {
+  background: linear-gradient(-90deg, #031540 65%, white 35%);
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
 }
