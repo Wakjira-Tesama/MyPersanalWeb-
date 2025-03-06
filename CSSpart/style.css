@@ -49,10 +49,12 @@ a:hover {
   align-items: center;
 }
 .homed {
-  margin-left: 40%;
-  margin-right: 10%;
+  margin-left: ;
+  margin-right: 20px;
   color: white;
   text-align: right;
+  background-color: red;
+  max-width: 600px;
 }
 .homed h1 {
   font-size: 25px;
@@ -70,7 +72,7 @@ p {
   text-spacing-trim: 20px;
 }
 .icons {
-  width: 100px;
+  width: 80px;
   height: 20px;
   display: flex;
   justify-content: center;
@@ -100,4 +102,13 @@ button {
   border-radius: 10px;
   color: white;
   margin-right: 100px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #b9601c;
+}
+.imgn {
+  background: green;
+  height: 500px;
+  width: 500px;
 }
